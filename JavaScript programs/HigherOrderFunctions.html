@@ -1,0 +1,11 @@
+<html>
+	<script>
+		let names=["Pune","Hyderbad","Banglore","Delhi","TamilNadu"];
+		let lengths=names.map(name=>name.length);
+		const result=names.filter(name=>name.length>5);
+		let res=lengths.reduce((sum,num)=>{return sum+num;});
+		document.writeln(`${lengths}`)
+        document.writeln(`${result}`)
+        document.writeln(`${res}`)
+	</script>
+</html>
