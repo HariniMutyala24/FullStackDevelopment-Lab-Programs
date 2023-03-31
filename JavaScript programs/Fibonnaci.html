@@ -1,0 +1,13 @@
+<html>
+<script>
+const number=parseInt(prompt("Enter the number of terms:"));
+let n1=0,n2=1,nextTerm=1;
+document.write("Fibonnaci Series:");
+for(let i=1;i<=number;i++){
+document.write(`${n1},`);
+n1=n2;
+n2=nextTerm;
+nextTerm=n1+n2;
+}
+</script>
+</html>
